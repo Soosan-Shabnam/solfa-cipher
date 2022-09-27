@@ -1,0 +1,18 @@
+body{
+    background-image: url('images/mountain.png');
+}
+
+.Decoder{
+    position: relative;
+    left: 29%;
+    top: 85px;
+}
+
+.secretButton {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: 76%;
+    bottom: 470px;
+    opacity: 0.5;
+}
