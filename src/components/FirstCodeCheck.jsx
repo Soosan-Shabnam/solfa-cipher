@@ -26,17 +26,6 @@ export default function FirstCodeCheck(){
         console.log(code3);
 
         if(code1 === 'GRAVITAS' && code2 === 'HYBRID' && code3 === 'HUNT'){
-            fetch('../to_be_decoded.zip').then(response => {
-                response.blob().then(blob => {
-                    // Creating new object of PDF file
-                    const fileURL = window.URL.createObjectURL(blob);
-                    // Setting various property values
-                    let alink = document.createElement('a');
-                    alink.href = fileURL;
-                    alink.download = '../to_be_decoded.zip';
-                    alink.click();
-                })
-            })
             navigate('/secondcodecheck');
         }
         else{
